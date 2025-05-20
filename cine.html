@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cine.css">
+    <title></title>
+</head>
+<body>
+    <div id="formContainer">
+        <h1>Recherche de films</h1>
+        <div id="searchForm">
+            <input type="text" id="searchInput" placeholder="Rechercher un film..." />
+            <button id="searchMovies" onclick="searchMovies()">Rechercher</button>
+            <button id="watchlistButton">Voir Watchlist</button>
+        </div>
+
+        <div id="movieList"></div>
+    </div>
+
+    <div id="watchlist">
+        <ul></ul>
+    </div>
+
+    <script src="./cine.js"></script>
+</body>
+</html>
